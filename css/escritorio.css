@@ -1,0 +1,49 @@
+/*CONFIGURACIONES BARRA SUPERIOR*/
+.barra_superior{
+    margin:auto;
+    height:4.60rem;
+    width:100.7rem;
+    margin-top: 5rem;
+    background-color: var(--fondo_ventana);
+
+   
+}
+
+
+
+
+
+
+
+
+/*------------------------------*/
+/*CONFIGURACIONES IMG ESCRITORIO*/
+
+.img_escritorio{
+    margin:auto;
+    height:55.2rem;
+    width:100.7rem;
+    
+}
+
+.img_escritorio img {
+    
+    height:55.2rem;
+    width:100.7rem;
+ 
+
+}
+
+/*------------------------------*/
+/*CONFIGURACIONES BARRA INFERIOR*/
+
+.barra_menu{
+    margin:auto;
+    height:4.30rem;
+    width:100.7rem;
+
+
+    background-color: var(--fondo_ventana);
+
+    padding-top:3.60rem;
+}
