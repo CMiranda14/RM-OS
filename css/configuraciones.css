@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size:10px;
+    font-family: 'Inter', sans-serif; 
+}
+
+:root{
+    --fondo_ventana:black;
+    --fondo2:#fefefe77;
+    --texto:        black;
+    --texto2:        white;
+
+    --tamaño_texto: 1rem;
+}
