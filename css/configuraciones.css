@@ -11,10 +11,10 @@ html{
 }
 
 :root{
-    --fondo_ventana:black;
-    --fondo2:#fefefe77;
+    --fondo_ventana:rgba(0, 0, 0, 0.812);
+    --fondo2:#fefefe6d;
     --texto:        black;
     --texto2:        white;
 
-    --tamaño_texto: 1rem;
+    --tamaño_texto: 1.3rem;
 }
