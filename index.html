@@ -30,7 +30,7 @@
                 </div>
             </div>
     <!--------------------------------------------------------------------------------->
-            <div class="ventana_menu">
+            <div class="ventana_menu" id="vent_menu">
                 <div class="linea"></div>
 
                 <div class="iconos1">
@@ -47,10 +47,22 @@
                     
                 </div>
             </div>
+
+            <div class="ventana_carpeta" id="ventana_carp">
+                <div class="barra_botones">
+                  <img class="bt" id="bt" onclick="act_desct3()" src="https://github.com/CMiranda14/img1/blob/main/minimizar.png?raw=true" alt="">
+                  <img class="bt2" id="bt2" onclick="act_desct4()" src="https://github.com/CMiranda14/img1/blob/main/32763.jpg?raw=true" alt="">
+                  <p class="bt3" id="bt3" onclick="act_desct2()">X</p>
+
+            
+                </div>
+                
+        
+            </div>
     <!--------------------------------------------------------------------------------->
             <div class="menu">
-                <img class="boton_menu" src="https://github.com/CMiranda14/img1/blob/main/windows-11-image%201.png?raw=true" alt="">
-                <img class="boton_carp" src="https://github.com/CMiranda14/img1/blob/main/image%205.png?raw=true" alt="">
+                <img class="boton_menu" id="ico_menu" onclick="activar_desactivar()" src="https://github.com/CMiranda14/img1/blob/main/windows-11-image%201.png?raw=true" alt="">
+                <img class="boton_carp" id="bt_carp"onclick="act_desct()" src="https://github.com/CMiranda14/img1/blob/main/image%205.png?raw=true" alt="">
                 <img class="boton1" src="https://github.com/CMiranda14/img1/blob/main/googlechrome_103832-PhotoRoom.png?raw=true" alt="">
                 <img class="boton2" src="https://github.com/CMiranda14/img1/blob/main/kisspng-email-attachment-computer-icons-outlook-com-email-5b119731ef4b21.2768371315278794739802-PhotoRoom.png?raw=true" alt="">
                 <img class="boton1" src="https://github.com/CMiranda14/img1/blob/main/Visual_Studio_Code_1.35_icon.svg-PhotoRoom.png?raw=true" alt="">
@@ -58,6 +70,8 @@
             </div>
             
         </div>
+
+        <script src="js/main.js" type="module"></script>
   
 </body> 
 </html>
